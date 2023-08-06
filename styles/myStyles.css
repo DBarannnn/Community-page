@@ -27,7 +27,24 @@
     width: 2px;
   }
 
-  .container-nav{
-    width: 100%;
+  .nav-item{
+    padding: 5px;
   }
+
+  .nav-item:not(:last-child) .navbar-link {
+    padding-right: 10px;
+    border-right: 2px solid white ;
+  }
+  .custom-nav-container{
+    width: 300px;
+  }
+  .custom-separator {
+    width: 2px;
+    height: 20px;
+    background-color: white; 
+  
+  }
+
+
+  
   
