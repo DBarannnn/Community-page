@@ -42,20 +42,21 @@
     background-color: white; 
   
   }
-.toogler-btn{
-  background-color: red;
-}
 .navbar-toggler {
   background-color: gray; /* Change this to your desired toggle button color (e.g., gray) */
   border: none; /* Optionally remove the border */
 }
-.dropdown-item{
-  background-color: black;
-  color: white;
+.separator-item{
+  padding-left: 10px;
+  padding-right: 10px;
 }
-.dropdown-menu{
-  background-color: black;
+
+.separator-line {
+  width: 2px;
+  height: 30px;
+  background-color: white;
 }
+
 
   
   
