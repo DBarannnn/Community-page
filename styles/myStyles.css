@@ -29,12 +29,10 @@
 
   .nav-item{
     padding: 5px;
+    background-color: black;
   }
 
-  .nav-item:not(:last-child) .navbar-link {
-    padding-right: 10px;
-    border-right: 2px solid white ;
-  }
+
   .custom-nav-container{
     width: 300px;
   }
@@ -44,7 +42,20 @@
     background-color: white; 
   
   }
-
+.toogler-btn{
+  background-color: red;
+}
+.navbar-toggler {
+  background-color: gray; /* Change this to your desired toggle button color (e.g., gray) */
+  border: none; /* Optionally remove the border */
+}
+.dropdown-item{
+  background-color: black;
+  color: white;
+}
+.dropdown-menu{
+  background-color: black;
+}
 
   
   
