@@ -43,7 +43,6 @@
   
   }
 .navbar-toggler {
-  background-color: gray; /* Change this to your desired toggle button color (e.g., gray) */
   border: none; /* Optionally remove the border */
 }
 .separator-item{
@@ -55,6 +54,41 @@
   width: 2px;
   height: 30px;
   background-color: white;
+}
+
+.nav-transition-bar{
+  background-color: #D9D9D9;
+  width: 100%;
+  height: 18px;
+}
+.news-description{
+  text-align: center;
+  padding: 25px;
+}
+.article-heading{
+  font-weight: bold;
+  font-size: 1.5em;
+  padding-bottom: 25px;
+}
+p{
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.separator-hz{
+  height: 2px;
+  width: 100%;
+  background-color: black;
+}
+
+.separator-hz {
+  border: 0;
+  border-top: 1px solid #D9D9D9; /* Adjust the color as needed */
+  margin: 20px 0; /* Add margin to separate the horizontal separator from the content */
+}
+
+.trending-img{
+  width: 184;
+  height: 326;
 }
 
 
