@@ -1,3 +1,39 @@
+/* Reset default margin and padding */
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Basic styles */
+.header, .nav, .main, .footer {
+  padding: 20px;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+}
+
+.nav li {
+  margin-right: 20px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .nav ul {
+    flex-direction: column;
+  }
+
+  .nav li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
+
+
+
+
 .custom-navbar {
     background-color: black;
     height: 75px;
@@ -18,7 +54,8 @@
   
   .navbar-link {
     color: white !important;
-    
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   
   .navbar-separator {
@@ -45,6 +82,8 @@
 .navbar-toggler {
   border: none; /* Optionally remove the border */
 }
+
+
 .separator-item{
   padding-left: 10px;
   padding-right: 10px;
@@ -52,7 +91,7 @@
 
 .separator-line {
   width: 2px;
-  height: 30px;
+  height: 40px;
   background-color: white;
 }
 
@@ -66,13 +105,13 @@
   padding: 25px;
 }
 .article-heading{
+  padding-right: auto;
   font-weight: bold;
   font-size: 1.5em;
   padding-bottom: 25px;
+
 }
-p{
-  font-family:Arial, Helvetica, sans-serif;
-}
+
 
 .separator-hz{
   height: 2px;
@@ -87,8 +126,44 @@ p{
 }
 
 .trending-img{
-  width: 184;
-  height: 326;
+  width: 20%;
+  border: 5px solid #737373;  
+}
+
+p{
+    font-size: 22px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.article-content-trending{
+  font-size: px;
+  font-weight: 500;
+}
+.trending-item{
+  padding-bottom: 30px;
+  padding-top: auto;
+}
+.footer-black{
+  background-color: black;
+  height: 75px;
+}
+.footer-img{
+  width: 40px;
+  background-color: black;
+}
+.left-column{
+  height: 100%;
+  width: 8px;
+  background-color: black;
+}
+.right-column {
+  height: 100%;
+  width: 8px;
+  background-color: black;
+  position: fixed; /* Keeps the column fixed on the right side */
+  top: 0;
+  right: 0;
 }
 
 

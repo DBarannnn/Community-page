@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -11,8 +12,14 @@
     *{
         margin: 0px !important;
     }
+
+    body {
+      margin: 0; /* Remove default margin */
+      padding: 0; /* Remove default padding */
+    }
     
 </style>
+
 
 <nav class="navbar navbar-expand-lg custom-navbar">
     <div class="container-fluid">
@@ -32,7 +39,7 @@
 
   
       <!-- Collapsible content -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" style="z-index: 1001;">
         <!-- Navigation items in the middle -->
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -73,31 +80,110 @@
 
 <section class="news-section">
   <h2 class="news-description">Recent Posts</h2>
-
+  <div class="container-fluid d-flex justify-content-center">
     <div class="row">
-      <div class="col-md-4 mb-4"> <!-- Add margin bottom class -->
+      <div class="col-lg-4 mb-4"> <!-- Add margin bottom class -->
         <p class="article-heading">Some geek news</p>
         <p class="article-content">Step into the World of Dota with Patch 7.25 - A Comprehensive and Thrilling Gameplay Overhaul! Explore the Major Changes, Hero Tweaks, Item Updates, and More - Unravel the Exciting New Features and Enhancements Redefining the Dota Experience!</p>
       </div>
-      <div class="col-md-4 mb-4"> <!-- Add margin bottom class -->
-        <p class="article-heading">Some geek news</p>
-        <p class="article-content">Step into the World of Dota with Patch 7.25 - A Comprehensive and Thrilling Gameplay Overhaul! Explore the Major Changes, Hero Tweaks, Item Updates, and More - Unravel the Exciting New Features and Enhancements Redefining the Dota Experience!</p>
+      <div class="col-lg-4 mb-4"> <!-- Add margin bottom class -->
+        <p class="article-heading">New Lion build has too much power</p>
+        <p class="article-content">The new Lion build in Dota 2 has taken the battlefield by storm, redefining the hero's role as a fearsome crowd-control powerhouse. With the introduction of a revamped talent tree and item synergies, Lion has found a fresh lease of life in the support role.</p>
       </div>
-      <div class="col-md-4 mb-4"> <!-- Add margin bottom class -->
-        <p class="article-heading">Some geek news</p>
-        <p class="article-content">Step into the World of Dota with Patch 7.25 - A Comprehensive and Thrilling Gameplay Overhaul! Explore the Major Changes, Hero Tweaks, Item Updates, and More - Unravel the Exciting New Features and Enhancements Redefining the Dota Experience!</p>
+      <div class="col-lg-4 mb-4"> <!-- Add margin bottom class -->
+        <p class="article-heading">Five features you may not know about Pudge.</p>
+        <p class="article-content">Unleash the gruesome power of Pudge, the Butcher, with these five lesser-known features that can elevate your gameplay to new heights. Whether you're a seasoned Pudge player or just getting acquainted with this infamous hero, exploring these hidden mechanics will...</p>
       </div>
       <hr class="separator-hz">
     </div>
+    </div>
   </section>
 
-
+<section class="trending-sec">
+<section>
+  <h2 class="news-description">Trending</h2>
+  <div class="container-fluid trending-item d-flex align-items-start">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="d-flex align-items-start">
+          <img class="img-fluid trending-img mr-4" src="photos/voker.jpg" alt="Invoker Gameplay">
+          <div>
+            <p class="article-heading">Master your Invoker gameplay</p>
+            <p class="article-content-trending">Master the Art of Invoker - A Procaster's Guide to Dominating Dota's Most Versatile Hero! Delve into the Complex World of Invoker Spells, Combos, and Strategies. Learn How to Adapt to Any Situation, Control Teamfights, and Turn the Tide of Battles. From Sunstrikes to Tornadoes, Empowering Alacrity to Devastating Chaos Meteor, Unleash the True Power of Invoker and Elevate Your Gameplay to the Next Level...</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+</section>
 
+<section class="trending-item">
+  <div class="container-fluid trending-item d-flex align-items-start">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="d-flex align-items-start">
+          <div class="mr-4">
+            <p class="article-heading text-right">Some geeks won the tournament</p>
+            <p class="article-content-trending text-right">In a display of extraordinary skill and teamwork, the underdog team of dedicated geeks emerged victorious at The International, Dota 2's most prestigious tournament. Against all odds, they proved that determination, passion, and a deep understanding of the game can triumph over seasoned veterans and established powerhouses..In a stunning twist of fate, the underdog team, comprised of passionate and dedicated geeks, ascended to the pinnacle of success at The International, the grand stage of Dota 2 competition. Their journey was nothing short of remarkable, marked by unwavering resolve and an unquenchable thirst for victory...</p>
+          </div>
+           <img class="img-fluid trending-img" src="photos/geeks.jpg" alt="Invoker Gameplay">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
+<section>
+  <div class="container-fluid trending-item d-flex align-items-start">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="d-flex align-items-start">
+          <img class="img-fluid trending-img mr-4" src="photos/dota2BEtting.jpg" alt="Invoker Gameplay">
+          <div>
+            <p class="article-heading">Evolving Dota 2: Embracing Innovation and Competition</p>
+            <p class="article-content-trending">In the ever-evolving landscape of gaming, Dota 2 has remained a shining example of how a classic can adapt and thrive in a rapidly changing environment. Since its inception, Dota 2 has continuously evolved, not just as a game, but as a testament to the power of innovation and the enduring spirit of competition.
 
+              Dota 2's journey began as a humble mod of a popular strategy game, eventually growing into a global phenomenon that captivates millions of players and spectators alike. As technology advances, so does the game's potential. From enhanced graphics and smoother gameplay mechanics to dynamic hero balance adjustments, each update brings a fresh layer of excitement and challenge.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="trending-item">
+  <div class="container-fluid trending-item d-flex align-items-start">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="d-flex align-items-start">
+          <div class="mr-4">
+            <p class="article-heading text-right">The Unseen Arrow: Unveiling the Secrets of Drow Ranger in Dota 2</p>
+            <p class="article-content-trending text-right">In the mystical realm of Dota 2, one hero stands as an embodiment of precision and finesse—Drow Ranger. With her swift bow and unparalleled marksmanship, she commands the battlefield, striking fear into the hearts of her enemies and turning the tide of battles with a single well-aimed arrow. Yet, beyond her icy exterior lies a tale of skill, strategy, and the art of mastering the bow.</p>
+          </div>
+           <img class="img-fluid trending-img" src="photos/drow.jpg" alt="Invoker Gameplay">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</section>
+
+<footer class="footer footer-black text-white py-3">
+  <div class="container-fluid d-flex justify-content-between column align-items-center">
+    <p class="navbar-link">&copy; 2023. All Rights Reserved.</p>
+    <div class="d-flex">
+      <a href="index.html"><img src="photos/facebook.png" class="mr-2 footer-img"></a>
+      <a href="index.html"><img src="photos/instagram.png" class="mr-2 footer-img"></a>
+      <a href="index.html"><img src="photos/twitter.png" class="mr-4 footer-img"></a>
+    </div>
+  </div>
+</footer>
+
+  
 
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
+</html>
